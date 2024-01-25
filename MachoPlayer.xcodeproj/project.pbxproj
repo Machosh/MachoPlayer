@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39AB66902B6289D500353E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB668F2B6289D500353E66 /* AppDelegate.swift */; };
+		39AB66922B6289D500353E66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66912B6289D500353E66 /* SceneDelegate.swift */; };
+		39AB66942B6289D500353E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66932B6289D500353E66 /* ViewController.swift */; };
+		39AB66972B6289D500353E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AB66952B6289D500353E66 /* Main.storyboard */; };
+		39AB66992B6289D600353E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AB66982B6289D600353E66 /* Assets.xcassets */; };
+		39AB669C2B6289D600353E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AB669A2B6289D600353E66 /* LaunchScreen.storyboard */; };
+		39AB66A72B6289D600353E66 /* MachoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66A62B6289D600353E66 /* MachoPlayerTests.swift */; };
+		39AB66B12B6289D600353E66 /* MachoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66B02B6289D600353E66 /* MachoPlayerUITests.swift */; };
+		39AB66B32B6289D600353E66 /* MachoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66B22B6289D600353E66 /* MachoPlayerUITestsLaunchTests.swift */; };
+		39AB66C72B628A7B00353E66 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66C62B628A7B00353E66 /* MovieEntity.swift */; };
+		39AB66CA2B628A8900353E66 /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66C92B628A8900353E66 /* MovieRepository.swift */; };
+		39AB66CE2B628AAD00353E66 /* MachoNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66CD2B628AAD00353E66 /* MachoNetwork.swift */; };
+		39AB66D02B628AC200353E66 /* MachoNetworkReqeust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66CF2B628AC200353E66 /* MachoNetworkReqeust.swift */; };
+		39AB66D22B628B6A00353E66 /* MachoNetworkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66D12B628B6A00353E66 /* MachoNetworkRepository.swift */; };
+		39AB66D42B628BCB00353E66 /* MachoNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66D32B628BCB00353E66 /* MachoNetworkError.swift */; };
+		39AB66D62B628D6B00353E66 /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66D52B628D6B00353E66 /* MovieAPI.swift */; };
+		39AB66DD2B62928300353E66 /* MachoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66DC2B62928300353E66 /* MachoPlayer.swift */; };
+		39AB66DF2B6292A100353E66 /* MovieMetaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66DE2B6292A100353E66 /* MovieMetaViewModel.swift */; };
+		39AB66E32B6292D800353E66 /* MachoPlayerOverlayButtonListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66E22B6292D800353E66 /* MachoPlayerOverlayButtonListner.swift */; };
+		39AB66E52B6292FD00353E66 /* MachoPlayerOverlayInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66E42B6292FD00353E66 /* MachoPlayerOverlayInterface.swift */; };
+		39AB66E72B62943500353E66 /* MachoPlayerButtonListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66E62B62943500353E66 /* MachoPlayerButtonListner.swift */; };
+		39AB66EA2B6294FB00353E66 /* OrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66E92B6294FB00353E66 /* OrientationManager.swift */; };
+		39AB66F32B62980C00353E66 /* MoviePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66F22B62980C00353E66 /* MoviePlayerViewController.swift */; };
+		39AB66F52B62981700353E66 /* MovieFullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66F42B62981700353E66 /* MovieFullScreenViewController.swift */; };
+		39AB66F82B62992600353E66 /* MachoFullScreenPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB66F72B62992600353E66 /* MachoFullScreenPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39AB66A32B6289D600353E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AB66842B6289D500353E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AB668B2B6289D500353E66;
+			remoteInfo = MachoPlayer;
+		};
+		39AB66AD2B6289D600353E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AB66842B6289D500353E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AB668B2B6289D500353E66;
+			remoteInfo = MachoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39AB668C2B6289D500353E66 /* MachoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AB668F2B6289D500353E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39AB66912B6289D500353E66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39AB66932B6289D500353E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39AB66962B6289D500353E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39AB66982B6289D600353E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39AB669B2B6289D600353E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39AB669D2B6289D600353E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AB66A22B6289D600353E66 /* MachoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AB66A62B6289D600353E66 /* MachoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoPlayerTests.swift; sourceTree = "<group>"; };
+		39AB66AC2B6289D600353E66 /* MachoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AB66B02B6289D600353E66 /* MachoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoPlayerUITests.swift; sourceTree = "<group>"; };
+		39AB66B22B6289D600353E66 /* MachoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39AB66C62B628A7B00353E66 /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		39AB66C92B628A8900353E66 /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
+		39AB66CD2B628AAD00353E66 /* MachoNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoNetwork.swift; sourceTree = "<group>"; };
+		39AB66CF2B628AC200353E66 /* MachoNetworkReqeust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoNetworkReqeust.swift; sourceTree = "<group>"; };
+		39AB66D12B628B6A00353E66 /* MachoNetworkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoNetworkRepository.swift; sourceTree = "<group>"; };
+		39AB66D32B628BCB00353E66 /* MachoNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoNetworkError.swift; sourceTree = "<group>"; };
+		39AB66D52B628D6B00353E66 /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
+		39AB66DC2B62928300353E66 /* MachoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoPlayer.swift; sourceTree = "<group>"; };
+		39AB66DE2B6292A100353E66 /* MovieMetaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMetaViewModel.swift; sourceTree = "<group>"; };
+		39AB66E22B6292D800353E66 /* MachoPlayerOverlayButtonListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoPlayerOverlayButtonListner.swift; sourceTree = "<group>"; };
+		39AB66E42B6292FD00353E66 /* MachoPlayerOverlayInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoPlayerOverlayInterface.swift; sourceTree = "<group>"; };
+		39AB66E62B62943500353E66 /* MachoPlayerButtonListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoPlayerButtonListner.swift; sourceTree = "<group>"; };
+		39AB66E92B6294FB00353E66 /* OrientationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationManager.swift; sourceTree = "<group>"; };
+		39AB66F22B62980C00353E66 /* MoviePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerViewController.swift; sourceTree = "<group>"; };
+		39AB66F42B62981700353E66 /* MovieFullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFullScreenViewController.swift; sourceTree = "<group>"; };
+		39AB66F72B62992600353E66 /* MachoFullScreenPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachoFullScreenPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AB66892B6289D500353E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AB669F2B6289D600353E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AB66A92B6289D600353E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AB66832B6289D500353E66 = {
+			isa = PBXGroup;
+			children = (
+				39AB668E2B6289D500353E66 /* MachoPlayer */,
+				39AB66A52B6289D600353E66 /* MachoPlayerTests */,
+				39AB66AF2B6289D600353E66 /* MachoPlayerUITests */,
+				39AB668D2B6289D500353E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39AB668D2B6289D500353E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39AB668C2B6289D500353E66 /* MachoPlayer.app */,
+				39AB66A22B6289D600353E66 /* MachoPlayerTests.xctest */,
+				39AB66AC2B6289D600353E66 /* MachoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39AB668E2B6289D500353E66 /* MachoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66BF2B628A2200353E66 /* Domain */,
+				39AB66C02B628A2700353E66 /* InfraStructures */,
+				39AB66C12B628A3400353E66 /* Application */,
+				39AB66C22B628A3B00353E66 /* Presenters */,
+				39AB66DB2B6291A000353E66 /* Resources */,
+			);
+			path = MachoPlayer;
+			sourceTree = "<group>";
+		};
+		39AB66A52B6289D600353E66 /* MachoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66A62B6289D600353E66 /* MachoPlayerTests.swift */,
+			);
+			path = MachoPlayerTests;
+			sourceTree = "<group>";
+		};
+		39AB66AF2B6289D600353E66 /* MachoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66B02B6289D600353E66 /* MachoPlayerUITests.swift */,
+				39AB66B22B6289D600353E66 /* MachoPlayerUITestsLaunchTests.swift */,
+			);
+			path = MachoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		39AB66BF2B628A2200353E66 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66C32B628A4B00353E66 /* Movie */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		39AB66C02B628A2700353E66 /* InfraStructures */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66CB2B628A9200353E66 /* MachoNetwork */,
+			);
+			name = InfraStructures;
+			sourceTree = "<group>";
+		};
+		39AB66C12B628A3400353E66 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				39AB668F2B6289D500353E66 /* AppDelegate.swift */,
+				39AB66912B6289D500353E66 /* SceneDelegate.swift */,
+				39AB66E82B6294C400353E66 /* DeviceOrientation */,
+				39AB66D72B628E0A00353E66 /* MachoPlayer */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		39AB66C22B628A3B00353E66 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66F12B6297FE00353E66 /* Movie */,
+				39AB66952B6289D500353E66 /* Main.storyboard */,
+				39AB66932B6289D500353E66 /* ViewController.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		39AB66C32B628A4B00353E66 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66C62B628A7B00353E66 /* MovieEntity.swift */,
+				39AB66C92B628A8900353E66 /* MovieRepository.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		39AB66CB2B628A9200353E66 /* MachoNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66CC2B628AA000353E66 /* UseCases */,
+				39AB66CD2B628AAD00353E66 /* MachoNetwork.swift */,
+				39AB66CF2B628AC200353E66 /* MachoNetworkReqeust.swift */,
+				39AB66D12B628B6A00353E66 /* MachoNetworkRepository.swift */,
+				39AB66D32B628BCB00353E66 /* MachoNetworkError.swift */,
+			);
+			name = MachoNetwork;
+			sourceTree = "<group>";
+		};
+		39AB66CC2B628AA000353E66 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66D52B628D6B00353E66 /* MovieAPI.swift */,
+			);
+			name = UseCases;
+			sourceTree = "<group>";
+		};
+		39AB66D72B628E0A00353E66 /* MachoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66D82B628E1B00353E66 /* ViewModel */,
+				39AB66D92B628E2100353E66 /* OverlayView */,
+				39AB66DA2B628E3A00353E66 /* Player */,
+			);
+			path = MachoPlayer;
+			sourceTree = "<group>";
+		};
+		39AB66D82B628E1B00353E66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66DE2B6292A100353E66 /* MovieMetaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39AB66D92B628E2100353E66 /* OverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66E22B6292D800353E66 /* MachoPlayerOverlayButtonListner.swift */,
+				39AB66E42B6292FD00353E66 /* MachoPlayerOverlayInterface.swift */,
+			);
+			path = OverlayView;
+			sourceTree = "<group>";
+		};
+		39AB66DA2B628E3A00353E66 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66DC2B62928300353E66 /* MachoPlayer.swift */,
+				39AB66E62B62943500353E66 /* MachoPlayerButtonListner.swift */,
+				39AB66F72B62992600353E66 /* MachoFullScreenPlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		39AB66DB2B6291A000353E66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39AB669A2B6289D600353E66 /* LaunchScreen.storyboard */,
+				39AB66982B6289D600353E66 /* Assets.xcassets */,
+				39AB669D2B6289D600353E66 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39AB66E82B6294C400353E66 /* DeviceOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66E92B6294FB00353E66 /* OrientationManager.swift */,
+			);
+			name = DeviceOrientation;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		39AB66F12B6297FE00353E66 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				39AB66F22B62980C00353E66 /* MoviePlayerViewController.swift */,
+				39AB66F42B62981700353E66 /* MovieFullScreenViewController.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39AB668B2B6289D500353E66 /* MachoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AB66B62B6289D600353E66 /* Build configuration list for PBXNativeTarget "MachoPlayer" */;
+			buildPhases = (
+				39AB66882B6289D500353E66 /* Sources */,
+				39AB66892B6289D500353E66 /* Frameworks */,
+				39AB668A2B6289D500353E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachoPlayer;
+			productName = MachoPlayer;
+			productReference = 39AB668C2B6289D500353E66 /* MachoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39AB66A12B6289D600353E66 /* MachoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AB66B92B6289D600353E66 /* Build configuration list for PBXNativeTarget "MachoPlayerTests" */;
+			buildPhases = (
+				39AB669E2B6289D600353E66 /* Sources */,
+				39AB669F2B6289D600353E66 /* Frameworks */,
+				39AB66A02B6289D600353E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AB66A42B6289D600353E66 /* PBXTargetDependency */,
+			);
+			name = MachoPlayerTests;
+			productName = MachoPlayerTests;
+			productReference = 39AB66A22B6289D600353E66 /* MachoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39AB66AB2B6289D600353E66 /* MachoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AB66BC2B6289D600353E66 /* Build configuration list for PBXNativeTarget "MachoPlayerUITests" */;
+			buildPhases = (
+				39AB66A82B6289D600353E66 /* Sources */,
+				39AB66A92B6289D600353E66 /* Frameworks */,
+				39AB66AA2B6289D600353E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AB66AE2B6289D600353E66 /* PBXTargetDependency */,
+			);
+			name = MachoPlayerUITests;
+			productName = MachoPlayerUITests;
+			productReference = 39AB66AC2B6289D600353E66 /* MachoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39AB66842B6289D500353E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					39AB668B2B6289D500353E66 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					39AB66A12B6289D600353E66 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 39AB668B2B6289D500353E66;
+					};
+					39AB66AB2B6289D600353E66 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 39AB668B2B6289D500353E66;
+					};
+				};
+			};
+			buildConfigurationList = 39AB66872B6289D500353E66 /* Build configuration list for PBXProject "MachoPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39AB66832B6289D500353E66;
+			productRefGroup = 39AB668D2B6289D500353E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39AB668B2B6289D500353E66 /* MachoPlayer */,
+				39AB66A12B6289D600353E66 /* MachoPlayerTests */,
+				39AB66AB2B6289D600353E66 /* MachoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AB668A2B6289D500353E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AB669C2B6289D600353E66 /* LaunchScreen.storyboard in Resources */,
+				39AB66992B6289D600353E66 /* Assets.xcassets in Resources */,
+				39AB66972B6289D500353E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AB66A02B6289D600353E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AB66AA2B6289D600353E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AB66882B6289D500353E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AB66D42B628BCB00353E66 /* MachoNetworkError.swift in Sources */,
+				39AB66942B6289D500353E66 /* ViewController.swift in Sources */,
+				39AB66D02B628AC200353E66 /* MachoNetworkReqeust.swift in Sources */,
+				39AB66CE2B628AAD00353E66 /* MachoNetwork.swift in Sources */,
+				39AB66C72B628A7B00353E66 /* MovieEntity.swift in Sources */,
+				39AB66EA2B6294FB00353E66 /* OrientationManager.swift in Sources */,
+				39AB66902B6289D500353E66 /* AppDelegate.swift in Sources */,
+				39AB66DF2B6292A100353E66 /* MovieMetaViewModel.swift in Sources */,
+				39AB66CA2B628A8900353E66 /* MovieRepository.swift in Sources */,
+				39AB66F32B62980C00353E66 /* MoviePlayerViewController.swift in Sources */,
+				39AB66E52B6292FD00353E66 /* MachoPlayerOverlayInterface.swift in Sources */,
+				39AB66922B6289D500353E66 /* SceneDelegate.swift in Sources */,
+				39AB66E72B62943500353E66 /* MachoPlayerButtonListner.swift in Sources */,
+				39AB66D22B628B6A00353E66 /* MachoNetworkRepository.swift in Sources */,
+				39AB66F52B62981700353E66 /* MovieFullScreenViewController.swift in Sources */,
+				39AB66D62B628D6B00353E66 /* MovieAPI.swift in Sources */,
+				39AB66F82B62992600353E66 /* MachoFullScreenPlayer.swift in Sources */,
+				39AB66E32B6292D800353E66 /* MachoPlayerOverlayButtonListner.swift in Sources */,
+				39AB66DD2B62928300353E66 /* MachoPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AB669E2B6289D600353E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AB66A72B6289D600353E66 /* MachoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AB66A82B6289D600353E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AB66B32B6289D600353E66 /* MachoPlayerUITestsLaunchTests.swift in Sources */,
+				39AB66B12B6289D600353E66 /* MachoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39AB66A42B6289D600353E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AB668B2B6289D500353E66 /* MachoPlayer */;
+			targetProxy = 39AB66A32B6289D600353E66 /* PBXContainerItemProxy */;
+		};
+		39AB66AE2B6289D600353E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AB668B2B6289D500353E66 /* MachoPlayer */;
+			targetProxy = 39AB66AD2B6289D600353E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39AB66952B6289D500353E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AB66962B6289D500353E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39AB669A2B6289D600353E66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AB669B2B6289D600353E66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39AB66B42B6289D600353E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39AB66B52B6289D600353E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39AB66B72B6289D600353E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC6QVP4PB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MachoPlayer/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fungif.playground.MachoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39AB66B82B6289D600353E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC6QVP4PB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MachoPlayer/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fungif.playground.MachoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39AB66BA2B6289D600353E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC6QVP4PB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fungif.playground.MachoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachoPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MachoPlayer";
+			};
+			name = Debug;
+		};
+		39AB66BB2B6289D600353E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC6QVP4PB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fungif.playground.MachoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachoPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MachoPlayer";
+			};
+			name = Release;
+		};
+		39AB66BD2B6289D600353E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC6QVP4PB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fungif.playground.MachoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachoPlayer;
+			};
+			name = Debug;
+		};
+		39AB66BE2B6289D600353E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC6QVP4PB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fungif.playground.MachoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AB66872B6289D500353E66 /* Build configuration list for PBXProject "MachoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AB66B42B6289D600353E66 /* Debug */,
+				39AB66B52B6289D600353E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AB66B62B6289D600353E66 /* Build configuration list for PBXNativeTarget "MachoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AB66B72B6289D600353E66 /* Debug */,
+				39AB66B82B6289D600353E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AB66B92B6289D600353E66 /* Build configuration list for PBXNativeTarget "MachoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AB66BA2B6289D600353E66 /* Debug */,
+				39AB66BB2B6289D600353E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AB66BC2B6289D600353E66 /* Build configuration list for PBXNativeTarget "MachoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AB66BD2B6289D600353E66 /* Debug */,
+				39AB66BE2B6289D600353E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39AB66842B6289D500353E66 /* Project object */;
+}
